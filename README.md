@@ -39,3 +39,5 @@ command : docker run -d -p 80:80 "your-image-name"
 
 
 step 7 : hit through url HTTP:<your-EC2-instance-ip:port>
+
+/* in the package.json file last line homepage when you are launching with EC2 instance just add Homepage: "." and remove the :scripts and it code in last 3 line */
